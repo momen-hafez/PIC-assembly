@@ -1,0 +1,56 @@
+MPLINK 4.48, Linker
+Linker Map File - Created Fri Jan 07 17:02:39 2022
+
+                                 Section Info
+                  Section       Type    Address   Location Size(Bytes)
+                ---------  ---------  ---------  ---------  ---------
+                   .org_0       code   0x000000    program   0x000002
+                   .cinit    romdata   0x000001    program   0x000004
+                   .org_1       code   0x000004    program   0x0000ee
+      .config_2007_CODE.O       code   0x002007    program   0x000002
+
+
+
+                              Program Memory Usage 
+                               Start         End      
+                           ---------   ---------      
+                            0x000000    0x000002      
+                            0x000004    0x00007a      
+                            0x002007    0x002007      
+            123 out of 8454 program addresses used, program memory utilization is 1%
+
+
+
+                              Symbols - Sorted by Name
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+              CHECK_CFLAG   0x00006c    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+           CONT_INTERRUPT   0x00006e    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+            END_INTERRUPT   0x000011    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+        INC_COUNTING_STEP   0x000043    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+                INC_DELAY   0x00004e    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+                     INIT   0x000017    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+                     LOOP   0x000040    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+              RESET_COUNT   0x000078    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+              RETURN_BACK   0x000049    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+             RETURN_BACK1   0x000054    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+           TMR1_INTERRUPT   0x000059    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+
+
+
+                              Symbols - Sorted by Address
+                     Name    Address   Location    Storage File                     
+                ---------  ---------  ---------  --------- ---------                
+            END_INTERRUPT   0x000011    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+                     INIT   0x000017    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+                     LOOP   0x000040    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+        INC_COUNTING_STEP   0x000043    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+              RETURN_BACK   0x000049    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+                INC_DELAY   0x00004e    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+             RETURN_BACK1   0x000054    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+           TMR1_INTERRUPT   0x000059    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+              CHECK_CFLAG   0x00006c    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+           CONT_INTERRUPT   0x00006e    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+              RESET_COUNT   0x000078    program     static C:\Users\THINK\Desktop\Desktop\4th_year\first_semester\RealTime\Project4\code.asm
+
+
